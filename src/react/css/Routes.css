@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url('../assets/font/ProximaNova-Light.woff') format('woff');
+    font-weight: 2000;
+    font-style: normal;
+  }
+
+html,
+body,
+section {
+    font-family: 'MyFont';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRoute{
+    height: 100%;
+    width: 100%;
+}

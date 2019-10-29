@@ -1,0 +1,132 @@
+.divRecipeContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divRecipeBody {
+  height: 97%;
+  width: 70%;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #ffffff;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divRecipeBody > .divHeader {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px #039be5 solid;
+}
+
+.divHeader > p {
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.divHeader > h4 {
+  color: black;
+  margin-left: 5px;
+}
+
+.divRecipeBody > .divBody {
+  height: 94%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.divBody > .divImage {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divImage > img {
+  height: 100%;
+}
+
+.divBody > .divButton {
+  height: 5%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.divButton > button {
+  height: 70%;
+  width: 10%;
+  border: none;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: 5px;
+  background: #e45425;
+  color: white;
+  cursor: pointer;
+}
+
+.divBody > .divContainer {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divContainer > .divFirstRow,
+.divContainer > .divSecondRow,
+.divContainer > .divThirdRow {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divFirstRow > div,
+.divSecondRow > div,
+.divThirdRow > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divFirstRow > div > label,
+.divSecondRow > div > label,
+.divThirdRow > div > label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.divFirstRow > div > input,
+.divSecondRow > div > input {
+  border: none;
+  border-radius: 3px;
+  border: 1px solid gray;
+  height: 30%;
+  width: 30%;
+}
+
+.divThirdRow > div > textarea {
+  height: 60%;
+  width: 50%;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+

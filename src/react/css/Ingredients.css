@@ -1,0 +1,49 @@
+.divIngredientsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divIngredientsBody {
+  height: 50%;
+  width: 70%;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #ffffff;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divIngredientsBody > .divHeader {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px #039be5 solid;
+}
+
+.divHeader > p {
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.divHeader > h4 {
+  color: black;
+  margin-left: 5px;
+}
+
+.divIngredientsBody > .divBody {
+  height: 94%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

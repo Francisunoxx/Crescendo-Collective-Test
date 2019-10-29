@@ -1,0 +1,192 @@
+.Home_divContainer_EQnLyrBjNhVufHhQxXcjY {
+  height: 100%;
+  width: 100%;
+}
+
+.Home_divContainer_EQnLyrBjNhVufHhQxXcjY > .Home_divRecipesContainer_nutmO8O-vK1rejGmTi0an {
+  height: 96%;
+  width: 98%;
+  margin: 1%;
+}
+
+.Home_divRecipesContainer_nutmO8O-vK1rejGmTi0an > .Home_divHeader_1gHH8BM67A3QF9t66nzqd4 {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #039be5 solid;
+}
+
+.Home_divHeader_1gHH8BM67A3QF9t66nzqd4 > img {
+  height: 80%;
+  margin-right: 10px;
+}
+
+.Home_divRecipesContainer_nutmO8O-vK1rejGmTi0an > .Home_divBody_3gD0d_UBy-Mo_rVuWVnvgj {
+  height: 95%;
+  width: 100%;
+}
+
+.Home_divBody_3gD0d_UBy-Mo_rVuWVnvgj > table {
+  width: 100%;
+  height: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.Home_divBody_3gD0d_UBy-Mo_rVuWVnvgj > table > tbody > tr > td {
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Home_divActions_5LlvvhEq7Ch6DbFkQLp2W {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home_actions_1eMyxBfNxrpbWZdMLJOKgZ {
+  height: 20%;
+  border: none;
+  border-radius: 3px;
+  margin: 1%;
+  color: white;
+  cursor: pointer;
+}
+
+.Home_viewRecipe_1npBZoqJ3VZBu232kOBSVK {
+  background: #4cb050;
+}
+
+.Home_editRecipe_3Os_VScdcPAOqNA1Byvlfs {
+  background: #ff9805;
+}
+
+.Home_viewIngredients_mcAOFnrLcgn0od6XKK5cB {
+  background: #9d27b0;
+}
+
+.Home_editIngredients_2i3LWGP7elMjxfmUbxyaU1 {
+  background: #e51b23;
+}
+.Recipe_divRecipeContainer_3KfHU7hkH48Cbn6YRDdbFI {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Recipe_divRecipeBody_2MZ3e3VONd2NynsOg4aSAU {
+  height: 97%;
+  width: 70%;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #ffffff;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Recipe_divRecipeBody_2MZ3e3VONd2NynsOg4aSAU > .Recipe_divHeader_2OQeURKwjU3TdxcTUZKfJ7 {
+  height: 6%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px #039be5 solid;
+}
+
+.Recipe_divHeader_2OQeURKwjU3TdxcTUZKfJ7 > p {
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Recipe_divHeader_2OQeURKwjU3TdxcTUZKfJ7 > h4 {
+  color: black;
+  margin-left: 5px;
+}
+
+.Recipe_divRecipeBody_2MZ3e3VONd2NynsOg4aSAU > .Recipe_divBody_3BFFHdti9Fho2cY9S1jyAf {
+  height: 94%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Recipe_divBody_3BFFHdti9Fho2cY9S1jyAf > .Recipe_divImage_1JrLJVwIdR9cixNIaxj1hL {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Recipe_divImage_1JrLJVwIdR9cixNIaxj1hL > img {
+  height: 100%;
+}
+
+.Recipe_divBody_3BFFHdti9Fho2cY9S1jyAf > .Recipe_divLogo_3FJ4t3BuUHtcSajT6_61K5 {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Recipe_divLogo_3FJ4t3BuUHtcSajT6_61K5 > .Recipe_divFirstRow_1UYKKYREiCyR6sejluyLS {
+  height: 20%;
+  width: 100%;
+}
+
+.Recipe_divBody_3BFFHdti9Fho2cY9S1jyAf > .Recipe_divButton_3b7oUT-QfUb8RBuP9NlouB{
+  height: 5%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Recipe_divButton_3b7oUT-QfUb8RBuP9NlouB > button{
+  height: 70%;
+  width: 10%;
+  border: none;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: 5px;
+  background: #e45425;
+  color: white;
+}
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(fonts/561dbc463919.woff) format('woff');
+    font-weight: 2000;
+    font-style: normal;
+  }
+
+html,
+body,
+section {
+    font-family: 'MyFont';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Routes_divRoute_3s1sSk11Bp_RWApWu509_1{
+    height: 100%;
+    width: 100%;
+}

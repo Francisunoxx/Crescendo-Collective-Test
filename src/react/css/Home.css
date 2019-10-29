@@ -1,0 +1,82 @@
+.divContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.divContainer > .divRecipesContainer {
+  height: 96%;
+  width: 98%;
+  margin: 1%;
+}
+
+.divRecipesContainer > .divHeader {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #039be5 solid;
+}
+
+.divHeader > img {
+  height: 80%;
+  margin-right: 10px;
+}
+
+.divHeader > button{
+  height: 60%;
+  border: none;
+  border-radius: 3px;
+  margin: 1%;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 5px;
+  background-color:#039be5;
+}
+
+.divRecipesContainer > .divBody {
+  height: 95%;
+  width: 100%;
+}
+
+.divBody > table {
+  width: 100%;
+  height: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.divBody > table > tbody > tr > td {
+  text-overflow: ellipsis;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.divActions {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions {
+  height: 20%;
+  border: none;
+  border-radius: 3px;
+  margin: 1%;
+  color: white;
+  cursor: pointer;
+}
+
+.viewRecipe {
+  background: #4cb050;
+}
+
+.editRecipe {
+  background: #ff9805;
+}
+
+.viewIngredients {
+  background: #9d27b0;
+}
