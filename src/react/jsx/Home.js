@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import style from "../css/Home.css";
-import ListIcon from "../assets/List.svg";
+import Icon from "../assets/Task.svg";
 import Recipe from "./Recipe";
 import NewRecipe from "./AddRecipe";
 import Ingredients from "./Ingredients";
@@ -260,7 +260,7 @@ class Home extends Component {
       <div className={style.divContainer}>
         <div className={style.divRecipesContainer}>
           <div className={style.divHeader}>
-            <img src={ListIcon} />
+            <img src={Icon} />
             <h3>Recipes</h3>
             <button onClick={() => this.onClickRecipe(AddRecipe)}>
               Add Recipe
